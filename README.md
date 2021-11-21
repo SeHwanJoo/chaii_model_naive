@@ -59,6 +59,7 @@ Then each kind of model can ensemble base on output logits, becuase of same toke
 As a result, my final submission is as follows.
 
 Final 1: 5 XLM + 5 Muril + 4 Rembert
+
 Final 2: 5 XLM + ensembled XLM + 5 Muril + ensembled Muril + Rembert
 
 ### did not work
