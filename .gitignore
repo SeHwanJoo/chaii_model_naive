@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+dataset/
+squad/
+.spyproject/
+__pycache__/
+
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +134,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+>>>>>>> 8538cf29279acc3a0fabb47c8c16fa727173a7aa
