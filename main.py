@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Mon Oct 18 20:40:42 2021
 
@@ -51,8 +49,6 @@ parser.add_argument('--max-length', type=int, default=400)
 parser.add_argument('--epoch', type=int, default=2)
 parser.add_argument('--decay-name', type=str, default='linear-warmup')
 parser.add_argument('--seed', type=int, default=9353)
-# parser.add_argument('--model-name', type=str, default='/data/Dataset/sehwan/ritm/weight/pretrain/mutil')
-# parser.add_argument('--model-name', type=str, default='/data/Dataset/sehwan/ritm/weight/pretrain/roberta-large-wechsel-hindi')
 parser.add_argument('--model-name', type=str, default='deepset/xlm-roberta-large-squad2')
 arg_parser = parser.parse_args()
 
@@ -138,10 +134,7 @@ class Config:
         self.epochs = args.epoch
         self.decay_name = args.decay_name
         self.seed = args.seed
-        if '/data/Dataset' in args.model_name:
-            self.output_dir = f'{args.model_name}/{args.seed}/nofold'
-        else:
-            self.output_dir = f'/data/Dataset/sehwan/ritm/weight/{args.model_name}/{args.seed}/nofold'
+        self.output_dir = f'{args.model_name}/{args.seed}/nofold'
     
 # train = pd.read_csv('dataset/train.csv')
 train = pd.read_csv('dataset/chaii0917.csv')

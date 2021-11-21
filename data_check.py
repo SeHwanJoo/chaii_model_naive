@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 """
 Created on Fri Nov  5 14:48:05 2021
 
-@author: sehwan
+@author: sehwan.joo
 """
 import pandas as pd
 import re
