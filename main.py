@@ -1,7 +1,7 @@
 """
 Created on Mon Oct 18 20:40:42 2021
 
-@author: nuvilabs
+@author: sehwan.joo
 """
 
 import os
