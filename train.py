@@ -3,7 +3,7 @@
 """
 Created on Mon Oct 18 20:37:29 2021
 
-@author: nuvilabs
+@author: sehwan.joo
 """
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
